@@ -1,0 +1,22 @@
+#top{
+    font-size:x-large;
+    text-align: center;
+    background-color: teal;
+    padding: 1rem;
+    color: white;
+}
+#form{
+         margin: 50px 200px;
+}
+#form >input , #form>select{
+    margin-bottom: 30px ;
+    border-radius: 10px;
+    height: 30px;
+    padding: 0px 15px;
+    margin-left: 15px;
+    
+    
+}
+label{
+    font-size: 25px;
+}

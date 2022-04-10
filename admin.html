@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <Div id="top">
+        Admin Portal
+    </Div>
+
+    <form  id="form" onsubmit="Submitfun(event)">
+<label for="">Product Name</label>
+<input type="text" id="name" placeholder="enter name here"><br>
+
+<label for="">Category</label>
+<input type="text" id="category" placeholder="enter category here"><br>
+
+<label for="">Img URL</label>
+<input type="text" id="image" placeholder="enter URL"><br>
+
+<label for="">Price</label>
+<input type="text" id="price" placeholder="enter price here"><br>
+
+<label for="">Gender</label>
+<select name="" id="gender">
+    <option value="Female">Female</option>
+    <option value="Male">Male</option>
+   
+</select><br>
+
+<label for="">Sold</label>
+<select name="" id="sold">
+    <option value="False">False</option>
+    <option value="True">True</option>
+</select><br>
+    <input type="submit">
+    </form>
+</body>
+</html>
+<script src="admin.js"></script>
